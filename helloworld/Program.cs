@@ -36,6 +36,7 @@ namespace helloworld
 
         private static bool IsPrime(int number)
         {
+            int notUsed = 8;
             //check for evenness
             if (number % 2 == 0)
             {
