@@ -55,19 +55,20 @@ namespace helloworld
                 }
             }
 
-            while (true) { ;}
+            return true;
+            //while (true) { ;}
 
 
             //repeat, Am I crazy ?
-            for (int i = 3; i <= max; i += 2)
-            {
-                if ((number % i) == 0)
-                {
-                    return false;
-                }
-            }
+            //for (int i = 3; i <= max; i += 2)
+            //{
+            //    if ((number % i) == 0)
+            //    {
+            //        return false;
+            //    }
+            //}
 
-            return true;
+            //return true;
         }
 
     }
